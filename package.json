@@ -1,25 +1,29 @@
 {
-  "name": "jsgame",
-  "version": "0.0.1",
-  "description": "Javascript game",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/oTkPoBeHuE/jsgame.git"
-  },
-  "keywords": [
-    "game"
-  ],
-  "author": "oTkPoBeHuE",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/oTkPoBeHuE/jsgame/issues"
-  },
-  "homepage": "https://github.com/oTkPoBeHuE/jsgame#readme",
-  "dependencies": {
-    "npm": "^6.0.0"
-  }
+	"name": "jsgame",
+	"version": "0.0.1",
+	"description": "Javascript game",
+	"main": "src/index.js",
+	"scripts": {
+		"build": "webpack",
+		"start": "npm run build && webpack-dev-server --port=8000"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/oTkPoBeHuE/jsgame.git"
+	},
+	"keywords": ["game"],
+	"author": "oTkPoBeHuE",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/oTkPoBeHuE/jsgame/issues"
+	},
+	"homepage": "https://github.com/oTkPoBeHuE/jsgame#readme",
+	"devDependencies": {
+		"webpack-dev-server": "^2.11.0",
+		"webpack": "^3.4.1",
+		"raw-loader": "^0.5.1"
+	},
+	"dependencies": {
+		"phaser": "^3.3.0"
+	}
 }
