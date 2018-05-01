@@ -11,7 +11,9 @@
 		"type": "git",
 		"url": "git+https://github.com/oTkPoBeHuE/jsgame.git"
 	},
-	"keywords": ["game"],
+	"keywords": [
+		"game"
+	],
 	"author": "oTkPoBeHuE",
 	"license": "MIT",
 	"bugs": {
